@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d62be07e-e942-4f2a-8316-ab5ef18bda16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PyFile/Install/DEMCreater.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="F:\code\CapacityOfReservoir\PyFile\Install\GreateDEMDialog.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\code\CapacityOfReservoir\PyFile\Install\GreateDEMDialog.ui" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyFile/PyFile.esriaddin" afterPath="$PROJECT_DIR$/PyFile/PyFile.esriaddin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyFile/Install/DEMCreater.py" afterPath="$PROJECT_DIR$/PyFile/Install/DEMCreater.py" />
     </list>
     <ignored path="CapacityOfReservoir.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/PyFile/Install/PyFile_addin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -36,22 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GreateDEMDialog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyFile/Install/GreateDEMDialog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DEMCreater.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyFile/Install/DEMCreater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.052054796">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.9479452">
+              <caret line="26" column="92" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+              <folding>
+                <element signature="e#19#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,7 +164,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Python.makeaddin">
+  <component name="RunManager" selected="Python.DEMCreater">
     <configuration default="false" name="makeaddin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,6 +178,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CapacityOfReservoir" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyFile/makeaddin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateDEMDialog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyFile/Install" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CapacityOfReservoir" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyFile/Install/CreateDEMDialog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DEMCreater" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyFile/Install" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CapacityOfReservoir" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyFile/Install/DEMCreater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -310,12 +338,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.makeaddin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CreateDEMDialog" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DEMCreater" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.makeaddin" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.DEMCreater" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CreateDEMDialog" />
+        <item index="2" class="java.lang.String" itemvalue="Python.makeaddin" />
       </list>
     </recent_temporary>
   </component>
@@ -471,26 +503,20 @@
     <entry file="file://$PROJECT_DIR$/PyFile/Install/PyFile_addin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyFile/Install/GreateDEMDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyFile/Install/DEMCreater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052054796">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.9479452">
+          <caret line="26" column="92" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+          <folding>
+            <element signature="e#19#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
