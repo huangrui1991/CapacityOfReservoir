@@ -1,5 +1,12 @@
 import arcpy
 import pythonaddins
+#from PyQt4 import QtGui
+try:
+    import DEMCreater
+except ImportError as e:
+    pythonaddins.MessageBox(e.message, "ImportError")
+    print 'haha'
+import sys
 
 class ComputeReservoir(object):
     """Implementation for PyFile_addin.ComputeReservoirButton (Button)"""
@@ -15,7 +22,10 @@ class CreateDEM(object):
         self.enabled = True
         self.checked = False
     def onClick(self):
-        pass
+        DEMCreater.p()
+        pythonaddins.MessageBox("haha", "ImportError")
+
+
 
 class DrawInterestRegion(object):
     """Implementation for PyFile_addin.DrawInterestRegionTool (Tool)"""

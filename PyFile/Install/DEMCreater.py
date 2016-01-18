@@ -1,14 +1,18 @@
 __author__ = 'HR'
+import pythonaddins
 
 import arcpy
 from PyQt4 import QtCore
 from PyQt4 import QtGui
 import sys
-import CreateDEMDialog
+try:
+    import CreateDEMDialog
+except ImportError as e:
+    print e.message
 
-class DEMGenerater():
+class DEMGenerater( QtCore.QObject ):
     def __init__(self):
-        pass
+        super(QtCore.QObject, self).__init__()
 
     InputFilePath = QtCore.QString()
 
@@ -16,15 +20,21 @@ class DEMGenerater():
     def SelectFilePath(self):
         InputFilePath = QtGui.QFileDialog.getOpenFileName()
         if(InputFilePath != None):
-            pass
+            print InputFilePath
 
 class DEMCreater(QtGui.QDialog,CreateDEMDialog.Ui_CreateDEMDialog):
     __demGenerater__ = DEMGenerater()
 
-    def __init__(self,parent = 0):
+    def __init__(self,parent = None):
         super(DEMCreater, self).__init__(parent)
-        self.setupUi(self,CreateDEMDialog)
-        QtCore.QObject.connect(self,self.InputFeatureClassPathButton,"click(self)",self.__demGenerater__,"SelectFilePath(self)")
+        self.setupUi(self)
+        QtCore.QObject.connect(self.InputFeatureClassPathButton, QtCore.SIGNAL('click(self)'), self.__demGenerater__,
+                               QtCore.SLOT('SelectFilePath()'))
+
+def p():
+    print 'hello world'
+
+
 
 
 
